@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1B057B622CB9A72900703E9A /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B057B612CB9A72100703E9A /* Chair.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1B057B502CB9A70A00703E9A /* Lab08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab08.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B057B612CB9A72100703E9A /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		1B057B472CB9A70A00703E9A = {
 			isa = PBXGroup;
 			children = (
+				1B057B612CB9A72100703E9A /* Chair.swift */,
 				1B057B522CB9A70A00703E9A /* Lab08 */,
 				1B057B512CB9A70A00703E9A /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B057B622CB9A72900703E9A /* Chair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
